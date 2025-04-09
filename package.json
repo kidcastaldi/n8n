@@ -8,7 +8,6 @@
   },
   "packageManager": "pnpm@10.2.1",
   "scripts": {
-    "prepare": "node scripts/prepare.mjs",
     "preinstall": "node scripts/block-npm-install.js",
     "build": "turbo run build",
     "build:backend": "turbo run build:backend",
@@ -59,7 +58,6 @@
     "jest-junit": "^16.0.0",
     "jest-mock": "^29.6.2",
     "jest-mock-extended": "^3.0.4",
-    "lefthook": "^1.7.15",
     "nock": "^14.0.1",
     "nodemon": "^3.0.1",
     "npm-run-all2": "^7.0.2",
